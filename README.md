@@ -8,6 +8,12 @@ You have just to follow the link: https://aymen-mahmoudi.github.io/Corelevels/
 <br>
 Add the atomic number or the atom symbol, choose the source, and press the buton to show the corresponding reference XPS curve.
 
+## Roadmap
+ <ul>
+  <li>Extract anr re-plot the curves from the database of images</li>
+  <li>Automatic identification of the atomic composition from a given curve</li>
+</ul> 
+
 ## Support and Contributing
 Let me know if you have any suggestions/ideas to enhance those scripts or add further settings. Your suggestions are warmly welcomed.
 <br><br>
