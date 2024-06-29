@@ -1,13 +1,8 @@
 # Database of XPS corelevels
 
 ## Description
-This Project offers a quick access to the XPS core levels of any atoms via an interactive web-based page. The used database is derived from the <a>"\href https://www.amazon.com/Handbook-Ray-Photoelectron-Spectroscopy-624755/dp/0962702625"target="_blank">MAHMOUDI_EN.pdf</a> 
+This Project offers a quick access to the XPS core levels of any atoms via an interactive web-based page. The used database is derived from the <a href="https://www.amazon.com/Handbook-Ray-Photoelectron-Spectroscopy-624755/dp/0962702625" target="_blank">Handbook of X Ray Photoelectron Spectroscopy</a>  
 
-## Installation
-To run the GUI, I recommend setting up a Python virtual environment (tested and verified under the 3.8.0 version) and adding the required libraries using the following command after cloning the rep (you can just download the rep in case you don't use git):
-```console
-pip install -r requirements.txt
-```
 ## Usage
 You have just to follow the link: https://aymen-mahmoudi.github.io/Corelevels/
 <br>
