@@ -1,4 +1,4 @@
-# Database of XPS corelevels
+# Database of XPS corelevels (under prep)
 
 ## Description
 This Project offers a quick access to the XPS core levels of any atoms via an interactive web-based page. The used database is derived from the <a href="https://www.amazon.com/Handbook-Ray-Photoelectron-Spectroscopy-624755/dp/0962702625" target="_blank">Handbook of X Ray Photoelectron Spectroscopy</a>  
