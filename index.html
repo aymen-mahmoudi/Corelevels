@@ -1,1 +1,30 @@
-<meta http-equiv="refresh" content="0; url=https://aymen-mahmoudi.github.io/HTML/Aymen's Blog/index.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Image on Button Click</title>
+    <style>
+        #image {
+            display: none;
+            width: 300px; /* Adjust the width as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <button id="showImageBtn">Show Image</button>
+    <img id="image" src="https://via.placeholder.com/300" alt="Placeholder Image">
+
+    <script>
+        document.getElementById('showImageBtn').addEventListener('click', function() {
+            var img = document.getElementById('image');
+            if (img.style.display === 'none' || img.style.display === '') {
+                img.style.display = 'block';
+            } else {
+                img.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
