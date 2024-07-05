@@ -3,28 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Show Image on Button Click</title>
-    <style>
-        #image {
-            display: none;
-            width: 300px; /* Adjust the width as needed */
-            height: auto;
-        }
-    </style>
+    <title>XPS Corelevels</title>
+    <link rel="stylesheet" href="styles.css">  <!-- Link to the CSS file -->
 </head>
 <body>
-    <button id="showImageBtn">Show Image</button>
-    <img id="image" src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <h1>Handbook of X-Ray Photoelectron Spectroscopy</h1>
+    <p>This pages allows to display the XPS survey for the common atoms. You have just to enter the correponding atomic number or the atomic symbol. eg. 34 or Se</p>
+    <br>
+    <br>
+    <input type="number" id="imageNumber" placeholder="atomic num/sym">
+    <button onclick="showImage()">Show XPS Survey</button>
+    <div id="imageContainer"></div>
 
-    <script>
-        document.getElementById('showImageBtn').addEventListener('click', function() {
-            var img = document.getElementById('image');
-            if (img.style.display === 'none' || img.style.display === '') {
-                img.style.display = 'block';
-            } else {
-                img.style.display = 'none';
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
