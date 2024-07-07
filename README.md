@@ -9,7 +9,7 @@ You just have to follow the link: https://aymen-mahmoudi.github.io/Corelevels/
 Add the atomic number or the atom symbol, choose the source, and press the button to show the corresponding reference XPS curve.
 
 <img src="screenshot_web.jpg"
-     alt="gui" width="600" height="450"
+     alt="gui" width="600" height="350"
       style="float: center"/>
 
 ## Roadmap
