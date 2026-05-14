@@ -8,26 +8,33 @@
 </head>
 <body>
     <h1>Handbook of X-Ray Photoelectron Spectroscopy</h1>
-    <p>This pages allows to display the XPS survey as well as the prominent doublets for the <b>common</b> atoms from the reference handbook. 
+    <p>This page displays the XPS survey and prominent doublets for the <b>common</b> atoms from the reference handbook.
         <br>
-        You have just to enter the correponding atomic number and specify the source</p>
+        The input is detected automatically: you can enter either an atomic number or an atom symbol.
+        <br>
+        Example: Selenium can be entered as `Se`, `se`, `SE`, or `34`.</p>
     <br>
     <br>
 
-    <select id="imageCount" onchange="toggleInputFields()">
-        <option value="1">One atom</option>
-        <option value="2">Two atoms</option>
-    </select>
+    <div id="controls">
+        <label for="sourceFolder">Select source:</label>
+        <select id="sourceFolder">
+            <option value="Al">Al</option>
+            <option value="Mg">Mg</option>
+        </select>
 
-    <input type="number" id="imageNumber1" placeholder="atomic number 1">
-    <div id="secondInputContainer" style="display: none;">
-        <input type="number" id="imageNumber2" placeholder="atomic number 2">
+        <select id="imageCount" onchange="toggleInputFields()">
+            <option value="1">One atom</option>
+            <option value="2">Two atoms</option>
+        </select>
+
+        <input type="text" id="imageNumber1" placeholder="atomic number or atom symbol 1">
+        <div id="secondInputContainer" style="display: none;">
+            <input type="text" id="imageNumber2" placeholder="atomic number or atom symbol 2">
+        </div>
+
+        <button onclick="showImages()">Show XPS Survey</button>
     </div>
-
-   
-
-
-    <button onclick="showImages()">Show XPS Survey</button>
     <div id="imageContainer"></div>
 
     <script src="script.js"></script>
